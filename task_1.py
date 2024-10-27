@@ -13,3 +13,4 @@ for i in range(len(numbers)):
     if numbers[i] is None:
         numbers[i] = average_value
 print("Измененный список:", numbers)
+#
