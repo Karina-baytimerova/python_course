@@ -12,5 +12,4 @@ average_value = sum_without_none / len(numbers)
 for i in range(len(numbers)):
     if numbers[i] is None:
         numbers[i] = average_value
-print("Измененный список:", numbers)
-#
+print("Измененный список:", numbers, end='\n')
