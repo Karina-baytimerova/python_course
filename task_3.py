@@ -8,5 +8,4 @@ first_team = list_players[:middle_index]
 second_team = list_players[middle_index:]
 
 print(first_team)
-print(second_team)
-#
+print(second_team), end='\n')
