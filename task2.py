@@ -10,5 +10,5 @@ money_capital = 0
 for i in range(months):
     money_capital = money_capital + salary - spend
     spend *= (increase + 1)
-money_capital = floor(abs(money_capital))
+money_capital = ceil(abs(money_capital))
 print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", money_capital, end='\n')
