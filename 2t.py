@@ -17,3 +17,4 @@ participants_second_group = "Петров|Сидоров|Смирнов"
 # TODO Провеьте работу функции с разделителем отличным от запятой
 common_participants = find_common_participants(participants_first_group, participants_second_group, separator=',')
 print(common_participants, end='\n')
+ 
