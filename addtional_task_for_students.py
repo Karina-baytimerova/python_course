@@ -5,3 +5,4 @@ def my_count(l: list, item):
         if element == item:
             count += 1
     return count
+     
